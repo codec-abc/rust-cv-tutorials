@@ -1,4 +1,4 @@
-# Chapter 1
+# An introduction to Rust-CV
 
 TODO
 

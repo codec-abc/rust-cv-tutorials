@@ -1,4 +1,4 @@
-# Chapter 2
+# Doing features matching
 
 In this tutorial we will take a look at doing feature extraction with ``AKAZE`` or ``FAST``.
 

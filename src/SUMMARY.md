@@ -1,5 +1,5 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
-- [Chapter 2](./chapter_2.md)
-- [Chapter 3](./chapter_3.md)
+- [1. Project structure](./ch1-project-structure.md)
+- [2. Your first CV Program](./ch2-first-program.md)
+- [3. Akaze features matching](./ch3-akaze-features-matching.md)
