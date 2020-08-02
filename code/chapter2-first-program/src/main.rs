@@ -1,9 +1,8 @@
-use image::{DynamicImage, Rgba};
-use image::GenericImageView;
+use image::{DynamicImage, Rgba, GenericImageView};
 use imageproc::drawing;
 use rand::Rng;
 
-    fn main() {
+fn main() {
     let src_image = image::open("../res/0000000000.png").expect("failed to open image file");
     let mut rng = rand::thread_rng();
     let mut canvas = drawing::Blend(src_image.to_rgba());

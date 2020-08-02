@@ -1,24 +1,7 @@
 # Doing features matching
 
-In this tutorial we will take a look at doing feature extraction with ``AKAZE`` or ``FAST``.
+In this tutorial we will be doing our second Rust-CV program. Our goal will be to run the Akaze features extractor and display its result.
 
-This will serve as an introduction tutorial for cv.
+By oversimplifying quite a lot, features are points in a image that are in interest to us because of their values and their neighbors values. Usually, we try to found points that have specific patterns. The idea is that each feature is quite unique so when comparing pictures if we found the same features on 2 different pictures we can be pretty confident that we are seeing the same object.
 
-## Create a project
-
-Let's start by creating a project: ``cargo new --bin cv-tutorial ``. Then we are going into the newly created directory: ``cd cv-tutorial``.
-
-## Add dependencies
-
-Open ``cargo.toml`` and add `cv` as a dependency. The dependency section should look like this
-
-````toml
-[dependencies]
-cv = "0.6.0"
-````
-
-// TODO add others
-
-## Get some tests images
-
-// TODO
+If you want a more precise and accurate description of features, reading the OpenCV documentation about [features](https://docs.opencv.org/master/df/d54/tutorial_py_features_meaning.html) or Wikipedia Feature [page](https://en.wikipedia.org/wiki/Feature_(computer_vision)) is recommended.
