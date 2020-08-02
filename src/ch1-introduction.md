@@ -7,6 +7,7 @@ Rust-CV is a project that aims to bring Computer Vision (CV) algorithms to the R
 This tutorial aims to help you understand how to use Rust-CV and what it has to offer. In is current state, this tutorial is rather incomplete and a lot of examples are missing. If you spot an error or wish to add a page feel free to do a PR. We are very open so don't hesitate to contribute.
 
 ### Project structure
+
 Before using Rust-CV it is important to understand how the ecosystem is set-up and how to use it.
 
 If you look at the [repository](https://github.com/rust-cv/cv) you can see multiples directories and a `Cargo.toml` file that contains a `[workspace]` section. As the name implies, we are using the workspace feature of Cargo. To put it simply, a cargo workspace allows us to creates multiples package in the same repository. 
