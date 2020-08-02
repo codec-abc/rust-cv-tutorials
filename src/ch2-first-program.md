@@ -33,7 +33,8 @@ use rand::Rng;
 
 Let's start by loading the image: 
 ```rs
-let src_image = image::open("../res/0000000000.png").expect("failed to open image file");
+let src_image = 
+    image::open("../res/0000000000.png").expect("failed to open image file");
 ```
 
 Nothing fancy here. we just call `image::open` with a relative path to get an image. As we don't want to handle errors, we use the `expect` function to panic on failure while displaying a nice error message.
@@ -68,6 +69,12 @@ At this point we just need to convert back our canvas to an image and the we can
 let out_img = DynamicImage::ImageRgba8(canvas.0);
 imgshow::imgshow(&out_img);
 ```
+
+### Result
+
+If the compile you should obtain something similar as the image below:
+
+![Random points](./images/random-points.png)
 
 ### Code
 
